@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+}
+
+body {
+  background: #5C8374;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  color: #333;
+}
+
+.tarefa {
+  width: 670px;
+  margin: auto;
+  background-color: #183D3D;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #FFF;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+.remove {
+  background-color: #1E4A4A40;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+  margin-bottom: 40px;
+  width: 670px;
+}
+
+.formzinho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formzinho input {
+  width: 100%;
+}
+
+.formzinho input::placeholder {
+  color: #fff;
+}
+
+.formzinho button {
+  background: none;
+  font-size: 40px;
+}
+
+input {
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  color: #fff;
+  width: 100%;
+}
+
+.todo-form input {
+  background: #183D3D;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+h1 {
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 142px;
+  height: 51px;
+  flex-shrink: 0;
+}
+
+.icon {
+  position: relative;
+}
+
+.dia {
+  height: 340px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  background: #1E4A4A40;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content p {
+  width: 540px;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.final{
+  padding-top: 20px;
+  font-size: 30px;
+  color: #FFF;
+}
